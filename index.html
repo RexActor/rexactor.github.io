@@ -10,12 +10,11 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
+      content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
+    <noscript></noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
   </head>
   <body class="is-preload">
     <!-- Wrapper -->
@@ -28,7 +27,10 @@
         <div class="content">
           <div class="inner">
             <h1>Welcome to my portfolio</h1>
-            <p>Please feel free to explore and contact me!<br /></p>
+            <p>
+              Please feel free to explore and contact me!
+              <br />
+            </p>
           </div>
         </div>
         <nav>
@@ -54,23 +56,116 @@
             full time job.
           </p>
         </article>
+<!-- #region IMAGE GENERATOR PY-->
 
-        <!-- Work -->
+   <!-- Work -->
         <article id="work">
-          <h2 class="major">Work</h2>
-          <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-          <p>
-            <a href="https://github.com/RexActor/python_image_generator">
-              Image generator in Python</a
-            >
-            <br />
-            <a href="https://github.com/RexActor/DespatchEventPlanning"
-              >Currently active project - Despatch Event Plan</a
-            >
+          <h2 class="major">Image Generator in Python</h2>
+
+          <span class="image main"></span>
+          <p style="text-align: center;">
+            <img
+              src="images/PythonImageGenerator/ImageGenerator_Rare.png"
+              width="150"
+              height="300"
+              alt=""
+            />
+            <img
+              src="images/PythonImageGenerator/ImageGenerator_Epic.png"
+              width="150"
+              height="300"
+              alt=""
+            />
+            <img
+              src="images/PythonImageGenerator/ImageGenerator_Unique.png"
+              width="150"
+              height="300"
+              alt=""
+            />
           </p>
+          <p>
+            Project idea was born when friend was developing trading discord bot
+            for game called
+            <span style="color: yellow; font-weight: bold">
+              "Dark and Darker".</span><br>Idea is that based on information passed into function, file generates Image.
+              <br>
+              Using <a href="https://pypi.org/project/Pillow/" target="_blank"><span style="font-weight: bold; color: coral;">Pillow library </span></a>to generate image. Image height is dynamic based on how many "modifiers" are for item.
+              <br>It moves text lover to be able to insert required extra text fields in middle.
+              <br> Top part of Image is being updated with coresponding colour for item Rarity
+              <br> Icon images are being passed into function as variable. Image is being resized and applied on top of background image.
+
+
+
+          </p>
+          <a href="https://github.com/RexActor/python_image_generator" target="_blank">
+            <span style="color: rgba(60, 255, 0, 0.877); font-weight: bold;">Link to repository</span>
+          </a>
+          <br />
+        </article>
+<!-- #endregion -->
+  
+
+<!-- #region  LINGO-->
+
+<!-- Work -->
+        <article id="work">
+          <h2 class="major"> Lingo in C#</h2>
+
+          <span class="image main"></span>
+          <p style="text-align: center;">
+          <img src="images/Lingo/Start.png" width="170">
+          <img src="images/Lingo/FirstGuess.png" width="170">
+          <img src="images/Lingo/Won.PNG" width="170">
+          <img src="images/Lingo/LetterinWrong place.PNG" width="170">
+          </p>
+          <p>
+           Simple Lingo game created in C#.<br>
+           Application chooses random 5 letter word from pre-definied list. <br>
+           Correct location letters are marked in green.<br>
+           If letter is in wrong location, but still is in chosen word, it's marked in light blue.<br>
+           If letter is not in word, it's simply left with white background.
+          </p>
+          <a href="https://github.com/RexActor/Lingo/tree/master/Lingo" target="_blank">
+            <span style="color: rgba(60, 255, 0, 0.877); font-weight: bold;">Link to repository</span>
+          </a>
+          <br />
+        </article>
+<!-- #endregion -->
+       
+<!-- #region COST CALCULATOR-->
+<!-- Work -->
+        <article id="work">
+          <h2 class="major"> Lingo in C#</h2>
+
+          <span class="image main"></span>
+          <p style="text-align: center;">
+          <img src="images/CostCalculator/MainImage.PNG" width="500" >
+          <img src="images/CostCalculator/Calculator.PNG" width="500">
+          
+          </p>
+          <p>
+          Application to calculate output based on provided data.<br>
+           <ol>
+            <li type="a">Line physical speed (meters per second)</li>
+            <li type="a">Spacing (in which position product is placed)</li>
+            <li type="a">Job Type</li>
+            <li type="a">Target %</li>
+            <li type="a">Hourly rate</li>
+           </ol>
+
+           <p>Calculator is calculating output based on provided information. It gives cost per unit.
+            <br> Calculation is done based on physical distance between "cups/spaces and actual line speed."
+           </p>
+          </p>
+          <a href="https://github.com/RexActor/WPFCostCalculator" target="_blank">
+            <span style="color: rgba(60, 255, 0, 0.877); font-weight: bold;">Link to repository</span>
+          </a>
+          <br />
         </article>
 
-        <!-- About -->
+
+
+<!-- About -->
         <article id="about">
           <h2 class="major">About</h2>
           <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
@@ -104,24 +199,24 @@
           </form>
           <ul class="icons">
             <li>
-              <a href="#" class="icon brands fa-twitter"
-                ><span class="label">Twitter</span></a
-              >
+              <a href="#" class="icon brands fa-twitter">
+                <span class="label">Twitter</span>
+              </a>
             </li>
             <li>
-              <a href="#" class="icon brands fa-facebook-f"
-                ><span class="label">Facebook</span></a
-              >
+              <a href="#" class="icon brands fa-facebook-f">
+                <span class="label">Facebook</span>
+              </a>
             </li>
             <li>
-              <a href="#" class="icon brands fa-instagram"
-                ><span class="label">Instagram</span></a
-              >
+              <a href="#" class="icon brands fa-instagram">
+                <span class="label">Instagram</span>
+              </a>
             </li>
             <li>
-              <a href="#" class="icon brands fa-github"
-                ><span class="label">GitHub</span></a
-              >
+              <a href="#" class="icon brands fa-github">
+                <span class="label">GitHub</span>
+              </a>
             </li>
           </ul>
         </article>
@@ -133,12 +228,25 @@
           <section>
             <h3 class="major">Text</h3>
             <p>
-              This is <b>bold</b> and this is <strong>strong</strong>. This is
-              <i>italic</i> and this is <em>emphasized</em>. This is
-              <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-              This is <u>underlined</u> and this is code:
-              <code>for (;;) { ... }</code>. Finally,
-              <a href="#">this is a link</a>.
+              This is
+              <b>bold</b>
+              and this is
+              <strong>strong</strong>
+              . This is
+              <i>italic</i>
+              and this is
+              <em>emphasized</em>
+              . This is
+              <sup>superscript</sup>
+              text and this is
+              <sub>subscript</sub>
+              text. This is
+              <u>underlined</u>
+              and this is code:
+              <code>for (;;) { ... }</code>
+              . Finally,
+              <a href="#">this is a link</a>
+              .
             </p>
             <hr />
             <h2>Heading Level 2</h2>
@@ -196,24 +304,24 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
             <h4>Icons</h4>
             <ul class="icons">
               <li>
-                <a href="#" class="icon brands fa-twitter"
-                  ><span class="label">Twitter</span></a
-                >
+                <a href="#" class="icon brands fa-twitter">
+                  <span class="label">Twitter</span>
+                </a>
               </li>
               <li>
-                <a href="#" class="icon brands fa-facebook-f"
-                  ><span class="label">Facebook</span></a
-                >
+                <a href="#" class="icon brands fa-facebook-f">
+                  <span class="label">Facebook</span>
+                </a>
               </li>
               <li>
-                <a href="#" class="icon brands fa-instagram"
-                  ><span class="label">Instagram</span></a
-                >
+                <a href="#" class="icon brands fa-instagram">
+                  <span class="label">Instagram</span>
+                </a>
               </li>
               <li>
-                <a href="#" class="icon brands fa-github"
-                  ><span class="label">Github</span></a
-                >
+                <a href="#" class="icon brands fa-github">
+                  <span class="label">Github</span>
+                </a>
               </li>
             </ul>
 
@@ -335,9 +443,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
             </ul>
             <ul class="actions">
               <li>
-                <a href="#" class="button primary icon solid fa-download"
-                  >Icon</a
-                >
+                <a href="#" class="button primary icon solid fa-download">
+                  Icon
+                </a>
               </li>
               <li>
                 <a href="#" class="button icon solid fa-download">Icon</a>
@@ -437,7 +545,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
       <!-- Footer -->
       <footer id="footer">
         <p class="copyright">
-          &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+          &copy; Untitled. Design:
+          <a href="https://html5up.net">HTML5 UP</a>
+          .
         </p>
       </footer>
     </div>
