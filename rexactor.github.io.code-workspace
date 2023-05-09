@@ -1,10 +1,13 @@
 {
   "folders": [
-	{
-		"path": "."
-	},
-	{
-		"path": "../../../../../home/rexactor/python_image_generator"
-	}
-]
+    {
+      "path": "."
+    },
+    {
+      "path": "../../../../../home/rexactor/python_image_generator"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "rexactor.github.io"
+  }
 }
