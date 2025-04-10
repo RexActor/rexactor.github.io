@@ -17,12 +17,12 @@ const projects = [
             "/images/InventoryManagement/Front_page.png",
             "/images/InventoryManagement/Create_Supplier.png",
             "/images/InventoryManagement/create_Load.png",
-            "/images/InventoryManagement/Create_load_2.PNG",
-            "/images/InventoryManagement/adjustment_codes.PNG",
-            "/images/InventoryManagement/Admin_page.PNG",
-            "/images/InventoryManagement/Item_management.PNG",
-            "/images/InventoryManagement/Manage_Users.PNG",
-            "/images/InventoryManagement/View_Loads.PNG"
+            "/images/InventoryManagement/Create_load_2.png",
+            "/images/InventoryManagement/adjustment_codes.png",
+            "/images/InventoryManagement/Admin_page.png",
+            "/images/InventoryManagement/Item_management.png",
+            "/images/InventoryManagement/Manage_Users.png",
+            "/images/InventoryManagement/View_Loads.png"
         ],
         stack: ["C#", "ASP.Net", "SQL", "Entity Framework", "Web Development","Chart.js"]
     },
@@ -33,7 +33,7 @@ const projects = [
             "/images/EngineeringDatabase/Main_Window.png",
             "/images/EngineeringDatabase/Report_Issue.png",
             "/images/EngineeringDatabase/settings.png",
-            "/images/EngineeringDatabase/Update_reported_item.PNG"
+            "/images/EngineeringDatabase/Update_reported_item.png"
         ],
         stack: ["C#", "WPF", "SQL", "Entity Framework", "Outlook"]
     },
@@ -44,8 +44,8 @@ const projects = [
         title: "Cost Calculator",
         description: "The calculator calculates output based on provided information, giving cost per unit. The calculation is based on physical distance between cups/spaces and the actual line speed.",
         images: [
-            "/images/CostCalculator/MainImage.png",
-            "/images/CostCalculator/Calculator.png"
+            "/images/CostCalculator/MainImage.PNG",
+            "/images/CostCalculator/Calculator.PNG"
         ],
         stack: ["C#", "WPF", "Cost Calculation"]
     },
@@ -86,11 +86,11 @@ const projects = [
         title: "Lingo",
         description: "A simple Lingo game created in C#. The application chooses a random 5-letter word from a predefined list. Correct location letters are marked in green. Letters in the wrong location but still in the word are marked in light blue. Letters not in the word are left with a white background.",
         images: [
-            "/images/Lingo/Start.png",
-            "/images/Lingo/Start_ori.png",
-            "/images/Lingo/Won.png",
-            "/images/Lingo/LetterinWrong place.png",
-            "/images/Lingo/FirstGuess.png"
+            "/images/Lingo/Start.PNG",
+            "/images/Lingo/Start_ori.PNG",
+            "/images/Lingo/Won.PNG",
+            "/images/Lingo/LetterinWrong place.PNG",
+            "/images/Lingo/FirstGuess.PNG"
         ],
         stack: ["C#", "WPF"]
     },
