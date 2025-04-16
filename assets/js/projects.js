@@ -54,9 +54,10 @@ const projects = [
         title: "OBS Twitch Challenge Bot",
         description: "OBS Twitch Challenge Bot is a versatile tool designed to integrate Twitch functionalities with OBS (Open Broadcaster Software). This project aims to enhance the streaming experience by automating commands, managing interactions, and adding customization options. Randomly selects a challenge from the predefined list, updates the OBS text source with the challenge, and generates an overlay in the HTML file. And sends back to Twitch chat message about challenge details.",
         images: [
-            "",
-            "",
-            ""
+            "/images/OBSTwitchBot/Console.png",
+            "/images/OBSTwitchBot/OBS_Source.png",
+            "/images/OBSTwitchBot/Settings.png",
+            "/images/OBSTwitchBot/bot response.png"
         ],
         stack: ["C#", "WPF", "SQL", "Web Development", "OBS Studio", "Twitch API"]
     },
